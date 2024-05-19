@@ -1,0 +1,50 @@
+.signIn{
+    background-image: url("https://images.pexels.com/photos/7135028/pexels-photo-7135028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm{
+    
+    padding: 30px;
+    border-color: rgb(181, 107, 107);
+    
+    border-radius: 13px;
+    border: 2px solid white;
+    border-radius: 10px;
+} 
+
+.loginForm2{
+   color: white;
+    padding: 20px;
+    margin-top: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#login-btn{
+    background-color: #339ce3;
+    border: black;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 10px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 8px;
+   
+   
+}
+
+input{
+    padding: 7px;
+    margin: 3px 0px;
+    outline: none;
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}

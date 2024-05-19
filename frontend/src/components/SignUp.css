@@ -1,0 +1,66 @@
+.signUp{
+    background-image: url("https://images.pexels.com/photos/7135028/pexels-photo-7135028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.signUpLogo{
+    width: 200px;
+    object-fit: contain;
+    padding: 10px 0px;
+}
+
+.loginPara{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 40px 20px 40px;
+}
+
+input{
+    padding: 10px;
+    margin: 3px 0px;
+    outline: none;
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+.form > div{
+    width: 80%;
+    margin: auto;
+}
+
+#submit-btn{
+    background-color: #339ce3;
+    border: black;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 10px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.form2{
+    color: white;
+    padding: 30px;
+    margin-top: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    }
+
